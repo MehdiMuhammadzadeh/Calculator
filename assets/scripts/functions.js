@@ -9,7 +9,7 @@ const calculationDescription = document.getElementById('calc-description');
 const calculationResult = document.getElementById('calc-result');
 
 function showResultOnDom (result, description) {
-  calculationDescription.textContent = result;
-  calculationResult.textContent=  description;
+  calculationDescription.textContent = description;
+  calculationResult.textContent=  result;
 
 }
